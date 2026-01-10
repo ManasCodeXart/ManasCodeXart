@@ -34,10 +34,7 @@ checke out SWIFTPAY’s UI/UX case study : https://www.behance.net/gallery/24047
 ## Tech & Tools  
 
 <p align="center">
-  <!-- Replace or remove badges as needed -->
-  <img src="https://img.shields.io/badge/Skill1-Color?logo=tool&logoColor=white" />
-  <img src="https://img.shields.io/badge/Skill2-Color?logo=tool&logoColor=white" />
-  <img src="https://img.shields.io/badge/Skill3-Color?logo=tool&logoColor=white" />
+ ![image alt] (https://github.com/ManasCodeXart/ManasCodeXart/blob/6d5eee93fa8de590b79972e49775fd0d2faf92cb/github%20tools.png)
 </p>
 
 ---
