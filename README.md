@@ -34,7 +34,7 @@ checke out SWIFTPAY’s UI/UX case study : https://www.behance.net/gallery/24047
 ## Tech & Tools  
 
 
- <img width="5680" height="1224" alt="Image" src="https://github.com/user-attachments/assets/ebdab4ae-1e92-429d-bae1-db0ef12a6f1b" />
+ <img width="2680" height="5224" alt="Image" src="https://github.com/user-attachments/assets/ebdab4ae-1e92-429d-bae1-db0ef12a6f1b" />
 
 ---
 
