@@ -34,8 +34,7 @@ checke out SWIFTPAY’s UI/UX case study : https://www.behance.net/gallery/24047
 ## Tech & Tools  
 
 
- ![image alt] (https://github.com/ManasCodeXart/ManasCodeXart/blob/6d5eee93fa8de590b79972e49775fd0d2faf92cb/github%20tools.png)
-
+ <img width="5680" height="1224" alt="Image" src="https://github.com/user-attachments/assets/ebdab4ae-1e92-429d-bae1-db0ef12a6f1b" />
 
 ---
 
