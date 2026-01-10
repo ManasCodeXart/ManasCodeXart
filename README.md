@@ -2,7 +2,6 @@
 <!--          BANNER SECTION       -->
 <!-- ============================= -->
 
-![Banner](INSERT_BANNER_IMAGE_URL_HERE)
 
 ---
 
@@ -23,7 +22,12 @@ React Native.**
 ## About Me  
 Hello World! I'm Manas Sharma I design mobile app UI/UX and turn it into functional React Native prototypes that behave like real apps not static screens. This allows founders to test flows, usability, and product direction early, reducing guesswork and development risk.  
 
-checke out SWIFTPAY’s UI/UX case study : https://www.behance.net/gallery/240471895/SWIFTPAY-ORIGINAL-UIUX-Case-Study  
+## You can reach me by : 
+📧 : sharmajimanas@gmail.com
+
+Twitter : https://x.com/ManasCodeXart
+
+LinkdIn : https://www.linkedin.com/in/manas-sharma-21052b251/
 
 ---
 
@@ -44,10 +48,7 @@ checke out SWIFTPAY’s UI/UX case study : https://www.behance.net/gallery/24047
 
 ## My Projects  
 
-<p align="center">
-  <!-- Replace GIF with your own or static screenshots -->
-  <img src="INSERT_PROJECT1_GIF_URL" width="150" alt="Project One Demo"/>
-</p>
+
 
 ---
 
