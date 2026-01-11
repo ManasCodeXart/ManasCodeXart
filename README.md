@@ -15,6 +15,19 @@ React Native.**
 
 ---
 
+<p align="right">
+ 
+![Image](https://github.com/user-attachments/assets/5aeb2a5f-524e-4f10-ba77-9cb93633b067)
+![Image](https://github.com/user-attachments/assets/3b89d565-2c8f-47f8-8d4b-8793f75f0a78)
+  
+</p>
+
+
+ 
+ 
+ 
+
+
 <!-- ============================= -->
 <!--             ABOUT ME          -->
 <!-- ============================= -->
