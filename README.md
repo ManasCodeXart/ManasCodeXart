@@ -6,7 +6,7 @@
 
 <br/>
 
-### Howdy, I'm Manas 👋
+### Yoo, I'm Manas 👋
 
 I design mobile products from scratch and turn them into real, working React Native code — not static screens.
 
