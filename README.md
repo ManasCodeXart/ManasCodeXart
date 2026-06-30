@@ -18,4 +18,4 @@ I design mobile apps from scratch and build them with React Native.
 
 ### 🔭 What I'm working on right now
 
-> A fintech interaction component library for React Native — polished, animation-rich payment and wallet UI patterns, built as standalone copy-paste repos starting from a shared template. Follow along on X for drops as they ship.
+> A fintech interaction component library for React Native.
