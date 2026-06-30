@@ -1,95 +1,89 @@
-<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .banner-bg { fill: #ffffff; }
+      .banner-bg { fill: #FAF6EF; }
       .banner-title {
         font-family: 'Caveat', 'Segoe Script', 'Bradley Hand', cursive, sans-serif;
-        font-size: 76px;
-        fill: #111111;
+        font-size: 80px;
+        font-weight: 700;
+        fill: #161616;
       }
-      .doodle { fill: none; stroke: #111111; stroke-width: 2.5; stroke-linecap: round; }
-      .doodle-fill { fill: #111111; }
+      .tagline {
+        font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+        font-size: 19px;
+        fill: #6b6b6b;
+        letter-spacing: 2.5px;
+      }
+      .doodle { fill: none; stroke: #161616; stroke-width: 2.5; stroke-linecap: round; }
 
-      .sparkle {
-        transform-box: fill-box;
-        transform-origin: center;
-        animation: twinkle 1.6s ease-in-out infinite;
-      }
-      .sparkle.delay { animation-delay: 0.8s; }
+      .accent-stroke { fill: none; stroke: #FF5A36; stroke-width: 2.5; stroke-linecap: round; }
+      .accent-fill { fill: #FF5A36; }
 
       .underline {
         stroke-dasharray: 14 10;
-        animation: dashflow 3s linear infinite;
+        opacity: 0;
+        animation: dashflow 3s linear infinite, fadein 0.6s ease-out 2.6s forwards;
       }
 
-      .phone-wiggle {
-        transform-box: fill-box;
-        transform-origin: center;
-        animation: wiggle 2.6s ease-in-out infinite;
+      .tagline-fade {
+        opacity: 0;
+        animation: fadein 0.8s ease-out 2.9s forwards;
       }
-      .phone-wiggle.reverse { animation-direction: alternate-reverse; }
 
-      @keyframes twinkle {
-        0%, 100% { opacity: 0.25; transform: scale(0.8); }
-        50% { opacity: 1; transform: scale(1.15); }
-      }
       @keyframes dashflow {
         to { stroke-dashoffset: -48; }
       }
-      @keyframes wiggle {
-        0%, 100% { transform: rotate(-4deg); }
-        50% { transform: rotate(4deg); }
+      @keyframes fadein {
+        to { opacity: 1; }
       }
     </style>
+
+    <pattern id="dotgrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#161616" opacity="0.05" />
+    </pattern>
+
+    <!-- clip rect that widens left-to-right to simulate the title being written -->
+    <clipPath id="revealClip">
+      <rect x="110" y="105" width="0" height="135">
+        <animate attributeName="width" from="0" to="980" dur="2.3s" begin="0.3s"
+                 fill="freeze" calcMode="spline" keySplines="0.3 0.05 0.2 1" />
+      </rect>
+    </clipPath>
   </defs>
 
   <!-- background -->
-  <rect class="banner-bg" x="0" y="0" width="1200" height="300" />
+  <rect class="banner-bg" x="0" y="0" width="1200" height="420" />
+  <rect x="0" y="0" width="1200" height="420" fill="url(#dotgrid)" />
 
-  <!-- left phone doodle -->
-  <g transform="translate(150,150) rotate(-12)">
-    <g class="phone-wiggle">
-      <rect class="doodle" x="-32" y="-65" width="64" height="130" rx="11" />
-      <line class="doodle" x1="-32" y1="-42" x2="32" y2="-42" />
-      <line class="doodle" x1="-18" y1="-15" x2="18" y2="-15" />
-      <line class="doodle" x1="-18" y1="5" x2="18" y2="5" />
-      <line class="doodle" x1="-18" y1="25" x2="6" y2="25" />
-      <line class="doodle" x1="-14" y1="52" x2="14" y2="52" />
+  <!-- title, revealed by the widening clip rect above -->
+  <g clip-path="url(#revealClip)">
+    <text x="600" y="200" text-anchor="middle" class="banner-title">Building Mobile Apps</text>
+  </g>
+
+  <!-- pencil nib that travels with the reveal edge -->
+  <g transform="translate(110,185)">
+    <animateTransform attributeName="transform" type="translate" from="110 185" to="1090 185"
+                       dur="2.3s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.3 0.05 0.2 1" />
+    <animate attributeName="opacity" from="1" to="0" begin="2.5s" dur="0.4s" fill="freeze" />
+    <g transform="rotate(-50)">
+      <line class="doodle" x1="-3" y1="-26" x2="3" y2="2" />
+      <line class="doodle" x1="-3" y1="-26" x2="3" y2="-26" />
+      <path class="accent-fill" d="M -3 2 L 3 2 L 0 9 Z" />
     </g>
   </g>
 
-  <!-- right phone doodle -->
-  <g transform="translate(1052,152) rotate(11)">
-    <g class="phone-wiggle reverse">
-      <rect class="doodle" x="-32" y="-65" width="64" height="130" rx="11" />
-      <line class="doodle" x1="-32" y1="-42" x2="32" y2="-42" />
-      <circle class="doodle-fill" cx="-14" cy="-10" r="7" />
-      <line class="doodle" x1="2" y1="-10" x2="18" y2="-10" />
-      <line class="doodle" x1="-18" y1="14" x2="18" y2="14" />
-      <line class="doodle" x1="-14" y1="52" x2="14" y2="52" />
-    </g>
-  </g>
-
-  <!-- sparkle accents -->
-  <path class="doodle-fill sparkle" d="M 95 60 L 100 75 L 115 80 L 100 85 L 95 100 L 90 85 L 75 80 L 90 75 Z" />
-  <path class="doodle-fill sparkle delay" d="M 1115 215 L 1119 226 L 1130 230 L 1119 234 L 1115 245 L 1111 234 L 1100 230 L 1111 226 Z" />
-
-  <!-- title -->
-  <text x="600" y="140" text-anchor="middle" class="banner-title">Building Mobile Apps</text>
-
-  <!-- hand-drawn underline doodle -->
-  <path class="doodle underline"
-    d="M 375 188
-       Q 415 168 455 188
-       Q 495 208 535 188
-       Q 575 168 615 188
-       Q 655 208 695 188
-       Q 735 168 775 188
-       Q 800 198 825 190" />
+  <!-- hand-drawn underline doodle, appears once the writing finishes -->
+  <path class="accent-stroke underline"
+    d="M 375 248
+       Q 415 228 455 248
+       Q 495 268 535 248
+       Q 575 228 615 248
+       Q 655 268 695 248
+       Q 735 228 775 248
+       Q 800 258 825 250" />
 
   <!-- tagline -->
-  <text x="600" y="240" text-anchor="middle"
-        font-family="'Segoe UI', sans-serif" font-size="20" fill="#444444" letter-spacing="1">
-    Mobile UI/UX Design · React Native · Interactions
+  <text x="600" y="300" text-anchor="middle" class="tagline tagline-fade">
+    MOBILE UI/UX DESIGN · REACT NATIVE · INTERACTIONS
   </text>
 </svg>
