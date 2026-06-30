@@ -6,9 +6,9 @@
 
 <br/>
 
-### Yoo, I'm Manas
+## Yoo, I'm Manas
 
-I design mobile apps from scratch and build them with React Native.
+### I design mobile apps from scratch and build them with React Native.
 
 - 🎨 Mobile-first **UI/UX designer** & **React Native developer**
 - ⚙️ Desinging & Building polished, animation-rich interactions
