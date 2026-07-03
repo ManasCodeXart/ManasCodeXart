@@ -12,7 +12,6 @@
 
 - 🎨 Mobile-first **UI/UX designer** & **React Native developer**
 - ⚙️ Desinging & Building polished, **animation-rich interactions**
-- 🐦 Sharing builds, breakdowns, and behind-the-scenes process on X
 
 <br/>
 
