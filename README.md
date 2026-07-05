@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Building Mobile Apps" width="100%" />
+<img width="3264" height="1088" alt="20260705_153436" src="https://github.com/user-attachments/assets/b30c5df9-4365-4969-b8a7-d7c03b9d7d61" />
 
 </div>
 
@@ -8,10 +8,11 @@
 
 ## Yoo, I'm Manas
 
-##  I design mobile app's UI/UX from scratch and build them into real apps with React Native.
+### I design mobile app's UI/UX from scratch and build with React Native.
 
 - 🎨 Mobile-first **UI/UX designer** & **React Native developer**
 - ⚙️ Desinging & Building polished, **animation-rich interactions**
+- 
 
 <br/>
 
