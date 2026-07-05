@@ -8,7 +8,7 @@
 
 ## Yoo, I'm Manas
 
-###  I design mobile app's UI/UX from scratch and build them into real apps with React Native.
+##  I design mobile app's UI/UX from scratch and build them into real apps with React Native.
 
 - 🎨 Mobile-first **UI/UX designer** & **React Native developer**
 - ⚙️ Desinging & Building polished, **animation-rich interactions**
